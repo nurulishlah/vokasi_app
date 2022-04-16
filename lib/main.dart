@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:vokasi_app/screens/profile_screen.dart';
 // import 'package:vokasi_app/screens/splash_screen.dart';
-import 'package:vokasi_app/screens/welcome_screen.dart';
+// import 'package:vokasi_app/screens/welcome_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +15,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Flutter Demo',
-      home: WelcomeScreen(),
+      home: ProfileScreen(),
+      debugShowCheckedModeBanner: false,
       // home: SplashScreen(),
     );
   }
